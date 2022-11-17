@@ -42,8 +42,9 @@ When we input the information in each slot, we will have the following result:
 
 ![all together](https://user-images.githubusercontent.com/111034667/202381999-a5922383-e9d8-4938-b33c-107d94c190bc.png)
 
-There are going to be cases where our information will not output information onto the table. This is due to our limited data.
+Due to our limited data, there are going to be cases where our information will not output information onto the table.
 
 ## Summary
 
+We were able to succesfully create an interactive HTML website that includes the option to filter our table containing UFOs sightings data. Our website is able to filter out our data based on the information the user inputs and it will be able to return the information about the sight for the majorityof the times. One of the drawbacks of our design is that depending on the way the user inputs our data will determine whether it will find a result or not. If a user were to input the date as mm/dd instead or the rest of the information in upper case, our code will not be able to retrieve the data to the table. To ensure our website retrieves the data, we can later on update our code to include an error message to be displayed in case the user inputs the information in the wrong format, and include the format that should be written on. Also, we can include a message after the user inputs information that does not match any of our data.In this message we can include the following  "It looks like we do not have any data regarding the information inputed. Please try it again with different information." .
 
